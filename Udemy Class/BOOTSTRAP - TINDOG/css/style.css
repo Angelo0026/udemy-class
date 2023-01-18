@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu:wght@700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+}
+
+#title h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.banner {
+  padding-top: 5%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+#features {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#features .features-inner {
+  margin: 8% 0;
+}
+
+#features i {
+  color: #ef8172;
+  font-size: 3.5rem;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+/* testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing .pricing-col {
+  padding: 3% 2%;
+}
+
+#pricing .card .btn {
+  width: 100%;
+}
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta h3 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 3.5rem;
+}
+
+#cta .cta-btn {
+  margin-right: 30px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer ul {
+  padding: 0;
+}
+
+#footer li {
+  list-style-type: none;
+  display: inline;
+}
+
+#footer li a {
+  color: #000;
+  margin: 0 4px;
+  text-decoration: none;
+
+}
+
+#footer p {
+  color: #C0C0C0;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* Media Query  */
+
+@media screen and (max-width: 1200px) {
+  #title h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #title h1 {
+    font-size: 2.0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    text-align: center;
+  }
+
+  #title h1 {
+    font-size: 2.5rem;
+  }
+
+  .title-img {
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+  }
+}
+

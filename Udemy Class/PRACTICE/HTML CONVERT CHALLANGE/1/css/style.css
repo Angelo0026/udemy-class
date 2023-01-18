@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.container {
+    max-width: 970px!important;
+}
+
+#site-title h1 {
+    text-align: center;
+    margin: 25px 0px
+}
+
+.navbar {
+  background-color: #f7fbfc;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #769fcd;
+  font-size: 1.5rem;
+  margin: 0 20px;
+}
+
+.site-banner {
+  background-color: #f7fbfc;
+  height: 100%;
+  width: 100%;
+}
+
+.site-banner .container {
+  position: relative;
+}
+
+.site-banner .banner-inner .banner-info {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.site-banner .banner-inner .banner-info h1 {
+    font-family: 'Meow Script', cursive;
+    font-size: 9rem;
+    color: #769fcd;
+    line-height: 1;
+}
+
+.site-banner .banner-inner .banner-info p {
+    font-size: 1.2rem;
+    color: #769fcd;
+    font-weight: 600;
+}
+
+.site-banner .cloud1-bg {
+  background: url(../images/cloud.png) top left no-repeat;
+  height: 45px;
+  width: 150px;
+  position: absolute;
+  top: 8rem;
+  right: 3rem;
+}
+
+.site-banner .cloud2-bg {
+  background: url(../images/cloud.png) top right no-repeat;
+  bottom: 2em;
+  height: 45px;
+  width: 150px;
+  position: absolute;
+  transform: scaleX(-1);
+
+  left: 5em;
+}
+
+.site-banner .mountain-bg {
+  background: url(../images/mountain.png) center center no-repeat;
+  height: 365px;
+  width: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+section#about {
+    padding:80px 0px 80px 0px;
+    text-align: center;
+}
+
+#about .site-about .about-inner {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+#about .site-about .about-inner img {
+    width: 180px;
+}
+
+#about .site-about h3 {
+    font-size: 2rem;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+    color: #769fcd;
+}
+
+#divider {
+    width: 5%;
+    margin: 10px auto;
+    border-style: dotted none none;
+    border-width: 5px;
+}
+
+section#services {
+    padding:80px 0px 80px 0px;
+}
+
+#services .services-inner img {
+    width: 200px;
+    margin: 0 auto;
+}

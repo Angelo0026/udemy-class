@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Epilogue", sans-serif !important;
+  font-size: 18px;
+}
+
+.large-text {
+  font-size: 4.4rem;
+  font-weight: 900;
+}
+
+.wrapper {
+  padding: 5% 7.7%!important;
+}
+
+.navbar {
+  padding: 2% 3% !important;
+}
+
+.logo {
+  padding-right: 15px;
+}
+
+.menu {
+  flex-basis: auto;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  color: #fafafa;
+}
+
+.nav-link::hover {
+  color: #696969;
+}
+
+.dropdown-menu.show {
+  border: none;
+  text-align: center;
+}
+
+.dropdown-menu img {
+  margin: 0 5px;
+}
+
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+.dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(180deg);
+} 
+
+.dropdown-toggle:after {
+  transition: 0.2s;
+}
+
+.dropdown-menu[data-bs-popper] {
+  min-width: auto;
+  box-shadow: 0px 0px 10px -3px rgb(0 0 0 / 90%);
+  -webkit-box-shadow: 0px 0px 10px -3px rgb(0 0 0 / 90%);
+  -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.9);
+}
+
+.cancel-btn {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.show-btn {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+
+/* hero section */
+
+.hero-info {
+  padding: 24% 10% 0 0;
+}
+
+
+.desktop-img {
+  width: 100%;
+}
+
+.mobile-img {
+  width: 100%;
+  display: none;
+}
+
+.hero-text {
+  color: #696969;
+  font-size: 18px;
+  margin:50px 0px;
+}
+
+.clients {
+  margin-top: 165px;
+}
+
+.clients img {
+  margin-right: 20px;
+}
+
+
+/* responsive */
+
+@media (max-width: 991px) {
+  .cancel-btn {
+    display: block;
+  }
+
+  .show-btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    display: block;
+    padding: 40px 0;
+    transition: all 0.3s ease;
+    margin-top: 0px;
+  }
+
+  .menu.active {
+    right: 0% !important;
+  }
+
+  .navbar-nav {
+    padding: 5% 20% !important;
+  }
+
+  .dropdown-menu[data-bs-popper] {
+    min-width: auto;
+    box-shadow: none;
+  }
+
+  /* .menu-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease;
+  } */
+}
+
+@media (max-width:767px) {
+  .mobile-img {
+    width: 100%;
+    display: block;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+}
