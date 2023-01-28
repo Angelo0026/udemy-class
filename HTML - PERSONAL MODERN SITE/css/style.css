@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  text-align: center!important;
+}
+
+.top {
+  background-color: aquamarine;
+  border: solid 10px #000;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.mid {
+  background-color: beige;
+  border: solid 10px #000;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.bottom {
+  background-color: blueviolet;
+  border: solid 10px #000;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.top-container{
+    padding-top: 100px;
+    position: relative;
+    width:100%;
+}
+
+
+h1 {
+  margin: 0 auto;
+  position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 15%;
+    top:5%;
+    height: 55px;
+    width: 155px;
+    z-index: 980;
+}
+.bottom-cloud {
+    position: absolute;
+}
+
+.profile img {
+    width: 150px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
